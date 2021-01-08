@@ -1,0 +1,20 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{rootCls}}" style="{{anonymousState__temp}}">
+        <view class="at-accordion__header" bindtap="handleClick">
+            <slot name="icon"></slot>
+            <view class="at-accordion__info">
+                <view class="at-accordion__info__title">{{header}}
+                    <slot name="header"></slot>
+                </view>
+                <view class="at-accordion__info__note">{{note}}</view>
+            </view>
+            <view class="{{arrowCls}}"><text class="at-icon at-icon-down"></text>
+            </view>
+        </view>
+        <view style="{{anonymousState__temp2}}" class="{{contentCls}}">
+            <view class="at-accordion__body">
+                <slot></slot>
+            </view>
+        </view>
+    </view>
+</block>

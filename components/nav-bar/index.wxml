@@ -1,0 +1,13 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{anonymousState__temp}}" style="{{anonymousState__temp2}}">
+        <view class="at-nav-bar__left-view">
+            <slot name="leftcontent"></slot>
+        </view>
+        <view class="at-nav-bar__title">
+            <slot></slot>
+        </view>
+        <view class="at-nav-bar__right-view">
+            <slot name="rightcontent"></slot>
+        </view>
+    </view>
+</block>

@@ -1,0 +1,14 @@
+{
+  "name": "wx-native",
+  "version": "1.0.0",
+  "description": "weixin native app using ui components",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "janya",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.4"
+  }
+}

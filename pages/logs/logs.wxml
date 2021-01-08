@@ -1,0 +1,20 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view class="panel__title">基础用法</view>
+  <view class="panel__content no-padding">
+    <view class="example-item">
+      <at-nav-bar>顶部导航
+        <view slot="leftcontent">
+          <view>
+            <text>返回</text>
+          </view>
+        </view>
+        <view slot="rightcontent">
+          <view>
+            <text>确定</text>
+          </view>
+        </view>
+      </at-nav-bar>
+    </view>
+  </view>
+</view>

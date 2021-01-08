@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{rootClass}}" style="{{anonymousState__temp}}">
+        <slot name="header"></slot>
+        <slot></slot>
+        <slot name="footer"></slot>
+    </view>
+</block>

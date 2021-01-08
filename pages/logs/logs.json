@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查看组件",
+  "usingComponents": {
+    "at-nav-bar": "../../components/nav-bar/index"
+  }
+}

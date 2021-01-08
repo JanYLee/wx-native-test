@@ -1,0 +1,10 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{rootClass}}">
+        <block wx:if="{{title}}">
+            <view class="at-action-sheet__header__title">{{title}}</view>
+        </block>
+        <block wx:if="{{message}}">
+            <view class="at-action-sheet__header__message">{{message}}</view>
+        </block>
+    </view>
+</block>
